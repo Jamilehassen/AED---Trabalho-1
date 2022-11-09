@@ -46,14 +46,8 @@ typedef struct {
     int pos_topo;
 } cabecalho_item;
 
-void escreve_cab_item(FILE* arq, cabecalho_item cab);
-
-cabecalho_item* ler_cab_item(FILE* arq);
-
 void criar_lista_item(FILE* arq);
 
-void inserir_sd_arquivo(FILE* arq, sanduiche sd);
-
-void imprimir_sd_arquivo(FILE* arq);
+void inserir_sd_arquivo(FILE* arq, )
 
 #endif // SISTEMA
