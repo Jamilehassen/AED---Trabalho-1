@@ -48,7 +48,7 @@ typedef struct {
 
 void escreve_cab_item(FILE* arq, cabecalho_item cab);
 
-cabecalho_item* le_cab_item(FILE* arq);
+cabecalho_item* ler_cab_item(FILE* arq);
 
 void criar_lista_item(FILE* arq);
 
